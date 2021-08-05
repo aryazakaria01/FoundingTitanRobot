@@ -72,9 +72,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- Hi {}, I'm {}!
-I am an No Game No Life anime themed group management bot,
-Built by weebs for weebs, I specialize in managing anime eccentric communities.
+ ──「 [Stephanie Dola](https://telegra.ph/file/a0a1306a134691c316839.jpg) 」──
+*Yoshaa! {},*
+*I'm Anime themed group management bot*
+I've some features for you :)
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+• *Uptime:* `{}`
+• `{}` *users, across* `{}` *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➛ Find the list of available commands with /help ××
 """
 
 HELP_STRINGS = """
