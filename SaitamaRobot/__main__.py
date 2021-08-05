@@ -73,12 +73,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
  Hi {}, I'm {}!
-I am an Attack on Titan anime themed group management bot,
+I am an No Game No Life anime themed group management bot,
 Built by weebs for weebs, I specialize in managing anime eccentric communities.
 """
 
 HELP_STRINGS = """
-Hey there, I'm Eren Jaeger!
+Hey there, I'm Stephanie Dola!
 To make me functional, make sure that i have enough rights in your group.
 
 Helpful commands:
@@ -86,7 +86,7 @@ Helpful commands:
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
 
-If you want to report bugs or have any questions on how to use me then feel free to reach out: @FoundingTitanSupport.
+If you want to report bugs or have any questions on how to use me then feel free to reach out: @DolaSupportNoGameNoLife.
 
 All commands can be used with the following: / !
 List of all the Modules:
@@ -96,6 +96,7 @@ List of all the Modules:
 )
 
 EREN_IMG = "https://telegra.ph/file/06355bb1cd9d0c53d1171.jpg"
+DOLA_IMG = "https://telegra.ph/file/077189a08f2d4583e6ed9.jpg"
 
 DONATE_STRING = """Plant a tree and give water to birds, that's your donation.."""
 
@@ -214,7 +215,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Eren Jaeger to your group!",
+                                text="➕ ᴀᴅᴅ sᴛᴇᴘʜᴀɴɪᴇ ᴅᴏʟᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕!",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -222,28 +223,28 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🗣️ Support",
+                                text="🗣️ sᴜᴘᴘᴏʀᴛ",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="🔔 Updates",
-                                url="https://t.me/foundingtitanupdates/",
+                                text="🔔 ᴜᴘᴅᴀᴛᴇs",
+                                url="https://t.me/DolaSupport/",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="📋 Getting Started",
-                                url="https://t.me/foundingtitanupdates/4",
+                                text="📋 ɢᴇᴛᴛɪɴɢ sᴛᴀʀᴛᴇᴅ",
+                                url="https://t.me/DolaSupport/3",
                             ),
                             InlineKeyboardButton(
-                                text="🌐 Nexus Network™",
+                                text="🌐 ɴᴇxᴜs ɴᴇᴛᴡᴏʀᴋ™",
                                 url="https://t.me/Nexus_Network/",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="⚙️ Help and Commands ",
-                                url="https://t.me/FoundingTitanRobot?start=help",
+                                text="⚙️ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs ",
+                                url="https://t.me/DolaRobot?start=help",
                             ),
                         ],
                     ],
@@ -628,7 +629,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/69db8d7439cd6413bc3a7.mp4)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/29576c26db8d9dbf905ce.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
@@ -669,7 +670,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Eren Jaeger is deployed successfully!")
+        LOGGER.info("Stephanie Dola is deployed successfully!")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
