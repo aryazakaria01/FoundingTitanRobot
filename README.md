@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/a0a1306a134691c316839.jpg">
 </p>
 
-# FoundingTitanRobot
+# FoundingDolaRobot
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/accaa60f7bf74ec7b6271f5b04a60fc9)](https://app.codacy.com/gh/sasukeuchiha912/FoundingTitanRobot?utm_source=github.com&utm_medium=referral&utm_content=sasukeuchiha912/FoundingTitanRobot&utm_campaign=Badge_Grade_Settings)
 
@@ -13,7 +13,7 @@
 
 
 
-Eren is a simple bot for making your group management easier and cool.
+Dola is a simple bot for making your group management easier and cool.
 
 * Bot Link:  <a href="http://t.me/FoundingTitanRobot" alt="FoundingtitanRobot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
 * Update Channel: <a  href="https://t.me/foundingtitanupdates/" alt="foundingtitanupdates"> <img src="https://img.shields.io/badge/-Update%20channel-lightgrey" /> </a>
