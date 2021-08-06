@@ -7,7 +7,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/accaa60f7bf74ec7b6271f5b04a60fc9)](https://app.codacy.com/gh/sasukeuchiha912/FoundingTitanRobot?utm_source=github.com&utm_medium=referral&utm_content=sasukeuchiha912/FoundingTitanRobot&utm_campaign=Badge_Grade_Settings)
 
 <p align="center">
- " The bot is based on Attack on Titan Anime ”  
+ " The bot is based on No Game No Life Anime ”  
 </p>
 
 
