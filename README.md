@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/eeef5ddbe7f33338aa311.jpg">
+  <img src="https://telegra.ph/file/a0a1306a134691c316839.jpg">
 </p>
 
 # FoundingTitanRobot
@@ -23,4 +23,4 @@ Eren is a simple bot for making your group management easier and cool.
 * Goes To Sawada And All Other SaitamaRobot Helpers
 
 ## Deploy 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sasukeuchiha912/FoundingTitanRobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aryazakaria01/FoundingTitanRobot)
